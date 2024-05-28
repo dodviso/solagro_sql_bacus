@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T14:25:13.462Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Pww14vtrtu8dxgCnBRlk" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-28T14:38:42.893Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="4qdqRvZFZjj9EMu3aMAU" version="24.4.8" type="github">
   <diagram name="diagramme de prétraitement BACUS" id="u4DxyU6BI0TSQ7bg5pkQ">
     <mxGraphModel dx="3271" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -271,6 +271,9 @@
         </mxCell>
         <mxCell id="ykNilkHp2qxzxDO7TVly-148" value="Légende" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;dashed=1;verticalAlign=top;fontSize=23;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="787" y="10" width="290" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="ykNilkHp2qxzxDO7TVly-150" value="&lt;div&gt;A faire :&lt;/div&gt;&lt;div&gt;modifier la fonction insert_into_bdd pour qu&#39;elle puisse prendre la date en compte dans la création de la table. &lt;br&gt;&lt;/div&gt;&lt;div&gt;Il faut aussi faire le dictionnaire de conversion des données en types pandas vers types sql pour que la table soit écrite correctement en sql en respectant les bons types de données. pour cela il faut que je fasse des tests pour voir comment pandas identifie les types de donnée, et éventuellement s&#39;il identifie mal, il faudra que je les précise à la main quelque part.&lt;/div&gt;&lt;div&gt;Vérifier également les fonctions de nettoyage pour voir pourquoi certianes données ne respectent pas le bonne combinaison de clé primaire renseignée&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1020" width="330" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
