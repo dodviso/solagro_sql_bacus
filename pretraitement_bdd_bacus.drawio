@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T14:20:50.359Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Vz3YNdNKc2vclBvmLgtp" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-28T14:25:13.462Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Pww14vtrtu8dxgCnBRlk" version="24.4.8" type="github">
   <diagram name="diagramme de prétraitement BACUS" id="u4DxyU6BI0TSQ7bg5pkQ">
-    <mxGraphModel dx="3722" dy="1203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3271" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" style="" parent="0" />
@@ -249,7 +249,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ykNilkHp2qxzxDO7TVly-141" value="Paramètres" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7EA6E0;strokeWidth=2;dashed=1;verticalAlign=top;fontSize=23;fontColor=#7EA6E0;" vertex="1" parent="1">
-          <mxGeometry x="56" y="320" width="1060" height="120" as="geometry" />
+          <mxGeometry x="56" y="320" width="1054" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ykNilkHp2qxzxDO7TVly-144" value="Sortie&lt;div&gt;(Type)&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="806" y="159" width="120" height="46" as="geometry" />
