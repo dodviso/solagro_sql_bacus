@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T09:58:39.100Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="cmiHshCPQMHzNcHzShwV" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T16:03:12.561Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="X4NaaWChZvd9R9HwsmUk" version="24.4.9" type="github">
   <diagram name="diagramme de prétraitement BACUS" id="u4DxyU6BI0TSQ7bg5pkQ">
     <mxGraphModel dx="2750" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -255,7 +255,7 @@
         <mxCell id="ykNilkHp2qxzxDO7TVly-147" value="&lt;div&gt;Début / fin&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="968.5" y="155.25" width="85" height="54.75" as="geometry" />
         </mxCell>
-        <mxCell id="ykNilkHp2qxzxDO7TVly-150" value="&lt;div&gt;A faire :&lt;/div&gt;&lt;div&gt;Vérifier également les fonctions de nettoyage pour voir pourquoi certianes données ne respectent pas le bonne combinaison de clé primaire renseignée&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ykNilkHp2qxzxDO7TVly-150" value="&lt;div&gt;A faire :&lt;/div&gt;&lt;div&gt;Vérifier également les fonctions de nettoyage pour voir pourquoi certianes données ne respectent pas le bonne combinaison de clé primaire renseignée&lt;/div&gt;&lt;div&gt;résoudre le problème les valeurs null en str dans le colonne posiition &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-460" y="967" width="330" height="210" as="geometry" />
         </mxCell>
         <mxCell id="w7qAbhV22DAJoYdI861r-3" value="" style="group" parent="1" vertex="1" connectable="0">
