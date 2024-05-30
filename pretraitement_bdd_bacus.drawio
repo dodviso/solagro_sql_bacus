@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T09:50:42.567Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="SAI5iFdLgG2TYrkqwhdg" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T09:58:39.100Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0" etag="cmiHshCPQMHzNcHzShwV" version="24.4.9" type="github">
   <diagram name="diagramme de prétraitement BACUS" id="u4DxyU6BI0TSQ7bg5pkQ">
-    <mxGraphModel dx="2915" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2750" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" style="" parent="0" />
@@ -358,11 +358,28 @@
         <mxCell id="6cZS5B_oIn2Czi7_O2uO-33" value="&lt;div&gt;dbconfig&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;spacingLeft=5;spacingRight=5;" vertex="1" parent="1">
           <mxGeometry x="467" y="1057" width="130" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="6cZS5B_oIn2Czi7_O2uO-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="6cZS5B_oIn2Czi7_O2uO-34" target="ykNilkHp2qxzxDO7TVly-117">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="6cZS5B_oIn2Czi7_O2uO-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="6cZS5B_oIn2Czi7_O2uO-34" target="ykNilkHp2qxzxDO7TVly-117">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="1363" />
+              <mxPoint x="950" y="1268" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="6cZS5B_oIn2Czi7_O2uO-34" value="&lt;div&gt;Cette fonction va toujours créer une nouvelle table pour insérer des données, puisque l&#39;historisation a été définie comme ceci.&lt;/div&gt;&lt;div&gt;Si jamais la date est absente ou bien si jamais la date renseignée existe &lt;br&gt;déjà dans la BD, elle va bien créer la nouvelle table mais en mettant &lt;br&gt;date-heure-minute correspondant au moment précis où la table a été &lt;br&gt;créée. Un log sera affiché pour prévenir de ce choix&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;spacingLeft=10;spacingRight=10;fontSize=10;align=center;spacingTop=11;" vertex="1" parent="1">
-          <mxGeometry x="780" y="1350" width="363" height="100" as="geometry" />
+          <mxGeometry x="1000" y="1313" width="363" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6cZS5B_oIn2Czi7_O2uO-40" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="714" y="1325.27" width="166" height="87.73000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="6cZS5B_oIn2Czi7_O2uO-38" value="Associer les types SQLAlchemy correspondants aux types Python" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="6cZS5B_oIn2Czi7_O2uO-40">
+          <mxGeometry width="166" height="60.73" as="geometry" />
+        </mxCell>
+        <mxCell id="6cZS5B_oIn2Czi7_O2uO-39" value="u.python_tosql_type" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=none;glass=0;shadow=0;" vertex="1" parent="6cZS5B_oIn2Czi7_O2uO-40">
+          <mxGeometry x="27" y="65.73000000000002" width="110" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="6cZS5B_oIn2Czi7_O2uO-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ykNilkHp2qxzxDO7TVly-117" target="6cZS5B_oIn2Czi7_O2uO-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
